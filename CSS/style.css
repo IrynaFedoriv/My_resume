@@ -6,21 +6,29 @@ body {
 }
 
 header {
-    /* display: flex;
-    justify-content: space-around; */
-    margin-left: 500px;
+    margin-left: 10px;
+}
+
+.navigation_list {
+text-align: right;
 }
 
 .navigation_list li {
-    display: inline;   
-    /* display: inline-block; */
+    display: inline-block;
+    box-sizing: border-box;
     text-transform: none;
     margin-right: 15px;
-    display: block;
-    padding: 8px;
-    background-color: rgba(221, 221, 221, 0.8);
-    float: right;
+    padding: 15px;
+    background: linear-gradient(60deg,#14e1f0, #2e4a4d);
+    /* float: right; */
     box-shadow: 2px 2px 16px rgba(46, 65, 59);
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 20px 0 20px 0;
+}
+
+.navigation_list li:active {
+    transform: translateY(10px);
 }
 
 a {
@@ -30,15 +38,11 @@ a {
     font-size: large;
 }
 
-
 aside {
     float: left;
     width: 310px;
     background-color: rgb(100, 164, 144);
     height: 100%;
-    display: flex;
-    flex-direction: column;
-    /* display: table-column; */
     color: aliceblue;
     padding-left: 10px;
     padding-bottom: 550px;
@@ -51,6 +55,7 @@ aside {
     float: left;
     border: solid white;
     border-radius: 20px 0 20px 0;
+    margin: 0px 0px 15px 0px;
 }
 
 main {
