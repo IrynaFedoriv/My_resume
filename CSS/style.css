@@ -19,8 +19,7 @@ text-align: right;
     text-transform: none;
     margin-right: 15px;
     padding: 15px;
-    background: linear-gradient(60deg,#14e1f0, #2e4a4d);
-    /* float: right; */
+    background: linear-gradient(60deg,rgb(20, 225, 240), rgb(46, 74, 77));
     box-shadow: 2px 2px 16px rgba(46, 65, 59);
     cursor: pointer;
     transition-duration: 0.4s;
@@ -45,7 +44,7 @@ aside {
     height: 100%;
     color: aliceblue;
     padding-left: 10px;
-    padding-bottom: 550px;
+    padding-bottom: 600px;
     padding-top: 20px;
     box-shadow: 2px 2px 16px rgb(46, 65, 59);
 }
@@ -59,8 +58,17 @@ aside {
 }
 
 main {
-    margin-left: 400px;
-    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 35px;
+    box-shadow: 0px 1px 9px 5px rgb(33, 65, 39);
+    float: right;
+}
+
+.section__main {
+    border-bottom: 2px solid rgb(164, 157, 152);
 }
 
 h3{
